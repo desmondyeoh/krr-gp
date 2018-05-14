@@ -75,7 +75,7 @@ def df_to_vlist(df_clean):
 
 
 def clean_data(df):
-    df = df.drop(columns=[
+    df = df.drop([
         'USED',
 
     ])
